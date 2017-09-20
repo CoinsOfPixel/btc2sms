@@ -3,7 +3,8 @@ from urllib.request import urlopen
 import json
 import threading
  
-print('Type a price to activate the trigger: ')                              trigger = input()
+print('Type a price to activate the trigger: ')                            
+trigger = input()
  
 def sendSMS():
     account_sid = "YOUR SID"
